@@ -951,6 +951,37 @@ body {
   .header__number {
     margin: 10px auto;
   }
+  .services__row .tabs__item:hover {
+    top: 0;
+  }
+  .services__row .tabs__item:hover::after {
+    display: none;
+  }
+  .footer__menu-list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__menu-link {
+    margin: 20px auto;
+  }
+}
+@media (max-width: 580px) {
+  .offer__title {
+    font-size: 38px;
+    width: 100%;
+  }
+  .offer__subtitle {
+    width: 100%;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .tabs__block-text-description-p {
+    left: 0;
+  }
+  .tabs__block-text-description-p::before {
+    display: none;
+  }
 }
 .bgr3 {
   margin-top: 140px;
