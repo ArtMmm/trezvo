@@ -822,7 +822,7 @@ body {
 }
 .question__row-item-text {
   width: 430px;
-  height: 99px;
+  min-height: 99px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -907,7 +907,7 @@ body {
   }
   .offer__title {
     font-size: 48px;
-    width: 500px;
+    max-width: 500px;
   }
   .offer__subtitle {
     width: 500px;
@@ -977,12 +977,25 @@ body {
   }
 }
 @media (max-width: 580px) {
+  .question__row-item {
+    max-width: 100%;
+  }
+  .question__row-item-text {
+    width: 100%;
+  }
   .header__img {
-    width: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .header__logo-school {
+    width: 100%;
   }
   .offer__title {
     font-size: 38px;
-    width: 100%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .offer__subtitle {
     width: 100%;
