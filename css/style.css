@@ -938,6 +938,11 @@ body {
     margin: 10px 0px;
   }
 }
+@media (max-width: 900px) {
+  .groups__row-item {
+    margin: 20px auto;
+  }
+}
 @media (max-width: 650px) {
   .imgblock__row-line {
     display: none;
@@ -950,6 +955,12 @@ body {
   }
   .header__number {
     margin: 10px auto;
+  }
+  .map__box-text {
+    margin-bottom: 20px;
+  }
+  .map__box-text-p {
+    margin-bottom: 20px;
   }
   .services__row .tabs__item:hover {
     top: 0;
@@ -981,6 +992,11 @@ body {
   }
   .tabs__block-text-description-p::before {
     display: none;
+  }
+}
+@media (max-width: 480px) {
+  .map__box-text-btn {
+    width: 240px;
   }
 }
 .bgr3 {
